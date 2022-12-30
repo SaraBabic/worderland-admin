@@ -13,13 +13,8 @@
 <body>
 <div class="content">
     <div class="color">
-        <h1>Worderland - Admin dashboard</h1>
+        <h1>Add a new word!</h1>
 
-        <div class="links">
-            <a href="users.php">Users</a>
-            <a href="words.php">Words</a>
-            <a href="newWord.php">Add a new word!</a>
-        </div>
     </div>
 </div>
 
