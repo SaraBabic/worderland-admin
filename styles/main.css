@@ -4,6 +4,10 @@
 }
 
 body {
+    background-color: #b811f5 !important;
+}
+
+.box-shadow {
     background-color: #000;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
@@ -13,7 +17,7 @@ body {
 }
 
 .content {
-    padding: 200px;
+    padding: 100px;
 }
 
 .color {
@@ -24,7 +28,7 @@ body {
 }
 
 h1 {
-    color: #DB73FF;
+    color: #DB73FF !important;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     padding-bottom: 80px;
@@ -44,4 +48,50 @@ h1 {
 }
 .links a:hover {
     font-size: 20px;
+}
+
+.back img {
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+}
+
+label {
+    font-family: 'Orbitron', sans-serif;
+    color: #DB73FF;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addBtn {
+    width: 400px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    background-color: #DB73FF;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.addBtn:hover {
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+table {
+    color: white;
+}
+
+.delete-word {
+    cursor: pointer;
 }
